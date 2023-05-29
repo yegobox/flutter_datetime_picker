@@ -29,7 +29,7 @@
 build/
 
 # Android related
-pubspec.lock
+
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
 **/android/captures/
