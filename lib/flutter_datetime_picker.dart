@@ -3,7 +3,8 @@ library flutter_datetime_picker;
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_datetime_picker/src/datetime_picker_theme.dart' as picker_theme;
+import 'package:flutter_datetime_picker/src/datetime_picker_theme.dart'
+    as picker_theme;
 import 'package:flutter_datetime_picker/src/date_model.dart';
 import 'package:flutter_datetime_picker/src/i18n_model.dart';
 
@@ -308,7 +309,7 @@ class _DatePickerState extends State<_DatePickerComponent> {
               ),
               child: GestureDetector(
                 child: Material(
-                  color: theme.backgroundColor ?? Colors.white,
+                  color: theme.backgroundColor,
                   child: _renderPickerView(theme),
                 ),
               ),
